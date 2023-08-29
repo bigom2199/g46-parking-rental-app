@@ -3,7 +3,7 @@ package lexicon.se.model;
 public class Customer {
         // Fields
     private String name;
-    private String phoneNumber;
+      private String phoneNumber;
     private int id;
 
     // Constructors
@@ -30,6 +30,12 @@ public class Customer {
         return id;
     }
 
-    // Methods
+    // ToString
 
+public String toString() {
+        return "Customer{" +
+                "id =" + id +
+                ",name = " + name + '\'' +
+                "}" ;
+}
 }
